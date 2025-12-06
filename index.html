@@ -1,31 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-  <meta charset="utf-8" />
-  <title>Pizzeria - Frontend Demo</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <title>Professional Website - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="brand">Pizza Demo</div>
-    <nav>
-      <button id="nav-home">Home</button>
-      <button id="nav-menu">Menu</button>
-      <button id="nav-cart">Cart (<span id="cart-count">0</span>)</button>
-      <button id="nav-orders">My Orders</button>
-      <button id="nav-admin">Admin</button>
-      <div id="auth-area"></div>
-    </nav>
-  </header>
 
-  <main id="app">
-    <!-- Views will be injected here by app.js -->
-  </main>
+<!-- Navbar -->
+<nav>
+    <h1>MY first Website</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
-  <footer>© Pizzeria Demo — Frontend Prototype</footer>
+<!-- Banner -->
 
-  <script src="app.js"></script>
+<!-- <div class="menu_items">
+    <label for="occupationType"></label>
+    <select name="occupationType" id="occupationType">
+          <option value=""></option>
+    </select>
+
+    
+ </div> -->
+
+<div class="row_Listitems">
+
+ 
+ 
+
+ <div class="container_sidebar">
+
+    <div class="box">
+        <span class="icon"></span>
+        <!-- <button class="btn" onclick="location.href='mobile-no-1-form.html'"> -->
+        MOBILE NO 1
+       </button>
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> CHILDREN ENRO 1
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> DOB UPDATE 1
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> DOB UPDATE 2
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> NAME UPDATE 1
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> ADDRESS UPDATE 1
+    </div>
+
+     <div class="box">
+        <span class="icon"></span> ADDRESS UPDATE 1
+    </div>
+
+    <div class="box">
+        <span class="icon"></span> ADDRESS UPDATE 1
+    </div>
+    </div>
+
+
+<div class="navbar_container">
+
+  <div class="topbar">
+    <h1 style="margin:0;font-size:18px;font-weight:700;color:#2b3a4a">Dashboard</h1>
+        <button class="generate-btn">Generate Report</button>
+     </div>
+
+      <div class="hero" style="margin:0 22px;">
+    <div class="hero-band">ALL SERVICES LIVE</div>
+    <div class="hero-links" aria-hidden="true">
+      <a href="#">ALL ONE PRINT PORTAL</a>
+      <a href="#">BIRTH PORTAL</a>
+      <a href="#">RTPS</a>
+      <a href="#">WhatsApp Support</a>
+    </div>
+  </div>
+
+ <div class="container">
+     introductory paragraph like image 
+    <p style="color:#3b5568; max-width:900px; line-height:1.5; margin-bottom:20px;">
+      प्रिय सदस्य,<br>
+      आशा है कि यह संदेश आपको स्वस्थ और खुशहाल स्थिति में पाए। हम आपके निरंतर समर्थन और हमारे
+      सामुदायिक विकास में योगदान के लिए आभारी हैं। कृपया अपने सुझाव और सहयोग के लिए हमसे संपर्क करें।
+    </p>
+
+
+
+
+    
+
+
+
+
+
+    <div class="cards">
+      <!-- Card 1: Balance -->
+      <div class="card-wrap gb-1">
+        <div class="card">
+          <div>
+            <div class="label">  <p>BALANCE</p>  </div>
+            <div style="height:6px"></div>
+            <div class="value"> <p id="balanceAmount"> ₹ 1000</p> </div>
+          </div>
+          <div style="display:flex; justify-content:flex-start; align-items:center; gap:10px">
+            <div class="add-balance"> <button id="addBalanceBtn">+ ADD BALANCE</button>  </div>
+          </div>
+          <div class="icon">₹</div>
+        </div>
+      </div>
+
+      <!-- Card 2: Total Applications -->
+      <div class="card-wrap gb-2">
+        <div class="card">
+          <div>
+            <div class="label">Total Applications</div>
+            <div class="value">  
+               <p id="totalApps">300</p>
+              </div>
+          </div>
+          <div class="icon">📋</div>
+        </div>
+      </div>
+
+      <!-- Card 3: Rejected -->
+      <div class="card-wrap gb-3">
+        <div class="card">
+          <div>
+            <div class="label">Reject Applications</div>
+            <div class="value">   <p id="rejectApps">45</p>   </div>
+          </div>
+          <div class="icon">❌</div>
+        </div>
+      </div>
+
+      <!-- Card 4: Success -->
+      <div class="card-wrap gb-4">
+        <div class="card">
+          <div>
+            <div class="label">Success Applications</div>
+            <div class="value" style="display:flex;align-items:center;gap:12px">
+             <p id="successApps">220</p>
+              <div class="progress" aria-hidden="true"><span></span></div>
+            </div>
+          </div>
+          <div class="icon">✅</div>
+        </div>
+      </div>
+
+      <!-- Card 5: Pending -->
+      <div class="card-wrap gb-5">
+        <div class="card">
+          <div>
+            <div class="label">Pending Requests</div>
+            <div class="value">   <p id="pendingApps">15</p>   </div>
+          </div>
+          <div class="icon">⏳</div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+<div  class="para_graph">
+    <p class="this_website">MY,,  NAME,,  IS,, -  RAUSHAN  </p>
+
+<div class="history-box">
+  <a href="#"> 
+         <h3 id="text_decrotionnn">Balance History</h3>
+  </a>
+    
+    <ul id="balanceHistoryList"></ul>
+</div>
+
+</div>
+
+</div>
+
+
+
+  
+  <!-- <div class="hero" style="margin:0 22px;">
+    <div class="hero-band">ALL SERVICES LIVE</div>
+    <div class="hero-links" aria-hidden="true">
+      <a href="#">ALL ONE PRINT PORTAL</a>
+      <a href="#">BIRTH PORTAL</a>
+      <a href="#">RTPS</a>
+      <a href="#">WhatsApp Support</a>
+    </div>
+  </div>  -->
+
+
+ </div>
+
+
+
+<!-- Services -->
+
+   
+
+
+<footer>
+    © 2025 my Professional websites
+</footer>
+<script src="script.js"></script>
+
+
+
+
 </body>
 </html>
-
