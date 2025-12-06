@@ -84,7 +84,7 @@ renderAuthArea();
 function renderHome(){
   app.innerHTML = `
     <div class="card center">
-      <h1>Welcome to Pizzeria Demo 🍕</h1>
+      <h1>Welcome to Pizza Demo 🍕</h1>
       <p class="small">This is a frontend-only prototype. Admin and User operations are simulated using localStorage.</p>
       <div style="margin-top:14px">
         <button class="btn" id="go-menu">Explore Menu</button>
@@ -468,3 +468,4 @@ function renderRevenue(){
 updateCartBadge();
 // expose renderMenu for quick access (optional)
 window.renderMenu = renderMenu;
+
